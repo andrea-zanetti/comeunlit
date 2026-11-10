@@ -1,0 +1,71 @@
+# ─── Secrets ────────────────────────────────────────────────────────────────
+# API HMAC key (docs/API.md section 8). secrets.example.toml IS committed.
+secrets.toml
+
+# ─── Build output ───────────────────────────────────────────────────────────
+# CMake build trees (board_pins.h and sb_secret.h are generated in there)
+build/
+build-*/
+cmake-build-*/
+CMakeUserPresets.json
+compile_commands.json
+
+# Firmware images and link maps, wherever they end up
+*.elf
+*.bin
+*.hex
+*.map
+*.su
+*.o
+*.d
+
+# Host tests (make -C tests/host)
+tests/host/test_host
+tests/host/fake_bridge
+tests/host/test_rx
+tests/host/test_tx
+tests/host/test_mac
+tests/host/test_mac_fixed
+
+# ─── Tools ──────────────────────────────────────────────────────────────────
+# STM32CubeIDE / Eclipse leftovers (project is CMake-only, not CubeMX-managed)
+.settings/
+.project
+.cproject
+.mxproject
+Debug/
+Release/
+*.launch
+
+# Editors and language servers
+.vscode/
+.idea/
+.cache/
+*.swp
+*~
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# KiCad: per-user settings, backups, caches, locks
+*.kicad_prl
+*-backups/
+fp-info-cache
+~*.lck
+\#auto_saved_files\#
+_autosave-*
+# Fabrication outputs and plugin data stay out of the repo
+hw/**/jlcpcb/
+hw/**/production/
+hw/**/*.zip
+
+# STM32CubeIDE project files (build is CMake)
+.cproject
+.project
+.mxproject
+.settings/

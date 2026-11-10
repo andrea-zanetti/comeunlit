@@ -1,0 +1,33 @@
+# Shield map: rev 1, as built (no bodge).
+#
+# Bus id = physical bus number from the silkscreen (Bus n = terminal J(n+4)).
+# Signals reference shield connector pins, taken from the KiCad schematic.
+#
+# Bus 1 (J5) is deliberately NOT listed: on rev 1 its receiver lands on
+# J4.1 -> D7 -> PG12, which has no timer capture channel. Decision
+# (Nov 2026): no bodge, rev 1 runs buses 2-4 only (two in use + one spare).
+
+[shield]
+name     = "SimpleBus shield"
+revision = "1"
+
+[[bus]]
+id   = 2
+term = "J6"
+rx   = "J4.2"
+data = "J4.6"
+oe   = "J3.2"
+
+[[bus]]
+id   = 3
+term = "J7"
+rx   = "J4.3"
+data = "J4.7"
+oe   = "J3.3"
+
+[[bus]]
+id   = 4
+term = "J8"
+rx   = "J4.4"
+data = "J4.8"
+oe   = "J3.4"

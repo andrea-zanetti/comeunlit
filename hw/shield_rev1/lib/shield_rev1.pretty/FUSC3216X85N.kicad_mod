@@ -1,0 +1,247 @@
+(footprint "FUSC3216X85N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "nanoASMDCH005F-2")
+	(tags "Resettable Fuse")
+	(property "Reference" "REF**"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(uuid "454d499c-3350-4408-b657-ee9414b09834")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "nanoASMDCH005F-2"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c442d8d8-04dd-4bf4-82b2-9740b4aaf577")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.in/datasheet/2/240/Littelfuse-2891793.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6138a24b-b48e-4575-9948-df75f4c3f033")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Resettable Fuses - PPTC RF5030-000"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13bcf0b8-4074-4c9a-9bc1-a8390424601b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "0.85"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2eaf74d1-c1ea-4592-ab64-a7ff5b9a00c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "576-NANOASMDCH005F-2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a2f0bb5-517c-48fa-8e6d-6ef9e0b26cd5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/nanoASMDCH005F-2?qs=t7xnP681wgViRwZLw42i8A%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f005ac2-cbb6-4e58-bfbc-58b43d8ea2e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "LITTELFUSE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e1554ab-1691-4195-b45b-25766c6f1f5a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "nanoASMDCH005F-2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b264e29f-6d1e-4771-af30-4c61287d02a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "comelit_bus_shield_v2.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0 -0.692)
+		(end 0 0.692)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74eb50b1-cb7c-4ea0-8c43-576114f7a1b3")
+	)
+	(fp_line
+		(start -2.305 -1.155)
+		(end 2.305 -1.155)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "763c8042-3635-4138-9660-63d173c8f958")
+	)
+	(fp_line
+		(start -2.305 1.155)
+		(end -2.305 -1.155)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "968d1410-1c09-4fce-8c0c-d0b3ca1daa7f")
+	)
+	(fp_line
+		(start 2.305 -1.155)
+		(end 2.305 1.155)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dae0c68c-351f-4305-929d-59eee230f01d")
+	)
+	(fp_line
+		(start 2.305 1.155)
+		(end -2.305 1.155)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ffdd6ad3-cc8e-4f30-941b-74312ebfb76e")
+	)
+	(fp_line
+		(start -1.6 -0.792)
+		(end 1.6 -0.792)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "869a6f6f-11b5-4fcd-9699-d539e897c6cd")
+	)
+	(fp_line
+		(start -1.6 0.792)
+		(end -1.6 -0.792)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd0e3c2e-b884-4c84-9432-4a9ecec4c721")
+	)
+	(fp_line
+		(start 1.6 -0.792)
+		(end 1.6 0.792)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "70718389-f9e2-47b3-b77f-941b31a1602a")
+	)
+	(fp_line
+		(start 1.6 0.792)
+		(end -1.6 0.792)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "531e5e73-ad42-448d-9cdc-d7e9d469d26c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "fc385457-eaf0-4ed0-8382-a23bd4c3115f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.475 0)
+		(size 1.16 1.81)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6585244c-1813-4435-9abc-19189cbe5aa5")
+	)
+	(pad "2" smd rect
+		(at 1.475 0)
+		(size 1.16 1.81)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "14bd5d77-a839-479d-9c13-fab153012025")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3dmodels/nanoASMDCH005F-2.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 -180)
+		)
+	)
+)

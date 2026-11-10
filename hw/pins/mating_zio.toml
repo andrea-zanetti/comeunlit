@@ -1,0 +1,23 @@
+# Mating table: shield connector pin -> Nucleo connector pin.
+#
+# Fixed by the mechanical fit of the shield on the board.
+# Written once; only changes if the shield's header footprints change.
+
+[mating]
+# J4 (KiCad Digital/PWM header) -> CN10
+"J4.1" = "CN10.2"
+"J4.2" = "CN10.4"
+"J4.3" = "CN10.6"
+"J4.4" = "CN10.8"
+"J4.5" = "CN10.10"
+"J4.6" = "CN10.12"
+"J4.7" = "CN10.14"
+"J4.8" = "CN10.16"
+
+# J3 (KiCad Analog header) -> CN9
+"J3.1" = "CN9.1"
+"J3.2" = "CN9.3"
+"J3.3" = "CN9.5"
+"J3.4" = "CN9.7"
+"J3.5" = "CN9.9"
+"J3.6" = "CN9.11"

@@ -1,0 +1,257 @@
+(footprint "DIONM5436X265N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMB")
+	(tags "TVS Diode (Bi-directional)")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "4241f900-8e41-441f-ba4a-ae113cc10e3d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SMBJ6.0CA-TR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e7850751-ec52-4f65-8d77-30a39a48a1c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.st.com/resource/en/datasheet/smbj58ca.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05f85e30-a2de-4432-901b-d531eb42aaa0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "STMicroelectronics SMBJ6.0CA-TR Bi-Directional TVS Diode, 600W peak, 2-Pin DO-214AA"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9916ba6b-18e6-4151-b55d-e4a2473b2099")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "2.65"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "698d4fe8-80a5-4938-bab7-cd4e9d08d666")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "511-SMBJ6.0CA-TR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f07a61e-66d3-458d-a355-985a1e6c9583")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/SMBJ60CA-TR?qs=G5AQjGfRJcJdLTxFBGynPw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be0587b2-d7e5-488b-aa4e-b643ec475e48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "STMicroelectronics"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b91a514d-7ad6-480d-ab33-2466549f5245")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "SMBJ6.0CA-TR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4729bf96-4458-4f39-b9ae-e732ec612a3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "comelit_bus_shield_v2.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.675 1.812)
+		(end 2.675 1.812)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5b8ecdb-e32f-4dfc-b5f0-729971796df7")
+	)
+	(fp_line
+		(start 2.675 -1.812)
+		(end -2.675 -1.812)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7797c3a2-b99e-47b0-b403-369209c2f750")
+	)
+	(fp_line
+		(start -3.55 -2.225)
+		(end 3.55 -2.225)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4c90fc21-1b82-4098-83ec-cb018b44534f")
+	)
+	(fp_line
+		(start -3.55 2.225)
+		(end -3.55 -2.225)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "406848a0-0be7-4012-9798-8e40abec549a")
+	)
+	(fp_line
+		(start 3.55 -2.225)
+		(end 3.55 2.225)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "00ebbbc9-cfe8-4655-ae58-a670e2b4607c")
+	)
+	(fp_line
+		(start 3.55 2.225)
+		(end -3.55 2.225)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e22b24a5-856e-42d2-9e5f-a40e990eb189")
+	)
+	(fp_line
+		(start -2.675 -1.812)
+		(end 2.675 -1.812)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "25af6053-6191-4ff8-8465-876e9d9956fd")
+	)
+	(fp_line
+		(start -2.675 1.812)
+		(end -2.675 -1.812)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "54aad979-de07-4482-aba7-86d3a7081d0b")
+	)
+	(fp_line
+		(start 2.675 -1.812)
+		(end 2.675 1.812)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0bf13d55-b56b-4a6d-b29d-f7f67e1aa917")
+	)
+	(fp_line
+		(start 2.675 1.812)
+		(end -2.675 1.812)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8cf29827-b46a-4e26-9334-97f10c67d998")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "fb2aaef5-165e-4004-8ff3-c835dd8e558a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.2 0 90)
+		(size 2.15 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c2c2034d-4407-4f0c-9b15-16e78e815774")
+	)
+	(pad "2" smd rect
+		(at 2.2 0 90)
+		(size 2.15 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7ee0ddff-68bc-460e-af43-89067b4b212c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3dmodels/SMBJ6.0CA-TR.stp"
+		(offset
+			(xyz 0 0 1.429999926)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 0 0)
+		)
+	)
+)

@@ -1,0 +1,77 @@
+# Board map: NUCLEO-H563ZI (MB1404)
+#
+# Physical connector pin -> STM32 GPIO.
+# Source: UM3115, ST Zio connector tables (CN9, CN10).
+# Changes only if the base board changes.
+#
+# `label` is informational only and never used as a key.
+# `capture` lists the timer input-capture functions validated for this
+# project; add entries only after checking them against the STM32H563
+# datasheet alternate-function table.
+
+[board]
+name = "NUCLEO-H563ZI"
+
+# ─── CN10 (digital) ─────────────────────────────────────────────────────
+
+[pins."CN10.2"]
+gpio  = "PG12"
+label = "D7"
+
+[pins."CN10.4"]
+gpio    = "PE9"
+label   = "D6"
+capture = [{ timer = "TIM1", channel = 1, af = 1 }]
+
+[pins."CN10.6"]
+gpio    = "PE11"
+label   = "D5"
+capture = [{ timer = "TIM1", channel = 2, af = 1 }]
+
+[pins."CN10.8"]
+gpio    = "PE14"
+label   = "D4"
+capture = [{ timer = "TIM1", channel = 4, af = 1 }]
+
+[pins."CN10.10"]
+gpio    = "PE13"
+label   = "D3"
+capture = [{ timer = "TIM1", channel = 3, af = 1 }]
+
+[pins."CN10.12"]
+gpio  = "PG14"
+label = "D2"
+
+[pins."CN10.14"]
+gpio  = "PB6"
+label = "D1"
+
+[pins."CN10.16"]
+gpio  = "PB7"
+label = "D0"
+
+# ─── CN9 (analog header, used here as GPIO) ─────────────────────────────
+
+[pins."CN9.1"]
+gpio  = "PA6"
+label = "A0"
+
+[pins."CN9.3"]
+gpio  = "PC0"
+label = "A1"
+
+[pins."CN9.5"]
+gpio  = "PC3"
+label = "A2"
+
+[pins."CN9.7"]
+gpio  = "PB1"
+label = "A3"
+
+[pins."CN9.9"]
+gpio  = "PC2"
+label = "A4"
+
+[pins."CN9.11"]
+gpio  = "PF11"
+label = "A5"

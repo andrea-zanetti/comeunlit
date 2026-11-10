@@ -1,0 +1,39 @@
+# Shield map: rev 2.
+#
+# Bus id = physical bus number from the silkscreen (Bus n = terminal J(n+4)).
+#
+# PROVISIONAL: encodes the minimal swap (Bus 1 RX <-> Bus 1 DATA,
+# i.e. J4.1 and J4.5 exchanged) so all four receivers land on TIM1.
+# If rev 2 is routed differently, only the pins below change.
+
+[shield]
+name     = "SimpleBus shield"
+revision = "2"
+
+[[bus]]
+id   = 1
+term = "J5"
+rx   = "J4.5"
+data = "J4.1"
+oe   = "J3.1"
+
+[[bus]]
+id   = 2
+term = "J6"
+rx   = "J4.2"
+data = "J4.6"
+oe   = "J3.2"
+
+[[bus]]
+id   = 3
+term = "J7"
+rx   = "J4.3"
+data = "J4.7"
+oe   = "J3.3"
+
+[[bus]]
+id   = 4
+term = "J8"
+rx   = "J4.4"
+data = "J4.8"
+oe   = "J3.4"
